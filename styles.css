@@ -1,0 +1,173 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    background-color:#ff4c68;
+    position: relative;
+}
+
+.heading1{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+}
+
+.title_container{
+    padding:3% 15% 3% 15%;
+}
+
+.title_row{
+    padding: 5% 0 0 0;
+}
+
+.iphone{
+    transform: rotate(20deg);
+    width: 60%;
+    height:auto;
+    padding:0 0 0 5%;
+}
+
+@media(max-width:1000px){
+    #title{
+        text-align:center;
+    }
+    .heading1{
+        font-size: 2.5rem;
+    }
+    .iphone{
+        position: static;
+        transform: rotate(0);
+        padding: 5% 0 0 0;
+    }
+}
+
+/*Navigation*/
+
+.navbar-brand{
+    font-size: 2rem
+}
+
+#blah{
+    font-size: 1.2rem
+}
+
+.download-button{
+    margin: 5% 5% 0 0
+}
+
+/* Features */
+#features{
+   text-align:center;
+   padding: 3% 7% 3% 7%;
+   background-color:white;
+   position:relative;
+   bottom: 175px;
+   height: 175px;
+}
+
+.fa-solid{
+    color:#ef8172;
+    transform: scale(2.5);
+    margin-bottom: 5%;
+}
+
+.fa-solid:hover{
+color:#ff4c68;
+}
+
+h3{
+    font-size:1.5rem;
+    font-weight:bold;
+}
+
+.feature{
+    color:#8f8f8f;
+}
+
+/*Testimonial*/
+#testimonials{
+   text-align:center;
+   background-color:#ef8172;
+   color:white;
+   line-height: 1.5;
+}
+
+.carousel-item active{
+    padding: 3% 30% 3% 30%;
+}
+
+
+.testimonial_text{
+    font-size:1.5rem;
+    font-weight:bold;
+    padding:5% 1% 1% 1%;
+}
+
+.testimony-image{
+    width: 10%;
+    border-radius:100%;
+    margin: 20px;
+}
+
+/*Press*/
+#press{
+    padding: 0 10% 0 10%;
+    text-align:center;
+    background-color:#ef8172;
+}
+
+.press_logo{
+    width:15%;
+    margin: 2%;
+}
+
+/*Pricing Section*/
+#pricing{
+    padding:2%;
+    text-align:center;
+}
+
+.pricing_column{
+    padding:0 2% 0 2%;
+}
+
+.pricing_title{
+    font-size: 2.5rem;
+}
+
+.pricing_para{
+    color:#8f8f8f;
+}
+
+.pricing_text{
+    font-size:1.5rem;
+    font-weight:bold;
+    padding:1%;
+}
+
+/*...cta...*/
+#cta{
+    text-align:center;
+    background-color:#ff4c68;
+    padding: 2%;
+    color: white;
+}
+
+.download-button2{
+    margin: 1% 1% 0 0;
+}
+
+/*..Footer..*/
+#footer{
+    text-align:center;
+    color:#8f8f8f;
+    padding:2%;
+    text-size: 3.5rem;
+}
+
+.social_logo{
+    margin:1%;
+}
+
